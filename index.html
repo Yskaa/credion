@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credion</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/jquery.simplyscroll.js"></script>
+    <script type="text/javascript">
+        (function($) {
+            $(function() {
+                $("#scroller").simplyScroll();
+            });
+        })(jQuery);
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-nav">
+                <div class="grid">
+                    <ul>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Вход в личный кабинет</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-info">
+                <div class="grid">
+                    <div class="logo">
+                        <h1>
+                            <span>Credion</span>
+                            <a href="#"><img src="images/logo.png" alt="Credion"></a>
+                        </h1>
+                    </div>
+                    <div class="customers">
+                        <h2><a href="#">Покупателям</a></h2>
+                        <p>Кредит не выходя из дома</p>
+                    </div>
+                    <div class="shops">
+                        <h2><a href="#">Магазинам</a></h2>
+                        <p><span>Рост продаж</span> и новый способ оплаты</p>
+                    </div>
+                    <div class="phone">
+                        <p>Звоните!</p>
+                        <p class="phone-number">+7 (499) 685 1174</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+
+            <div class="content-first">
+                <ul id="scroller" class="products">
+                    <li class="product">
+                            <h3 class="pr-name"><a href="#">Скамья регулируемая</a></h3>
+                            <div class="pr-image">
+                                <a href="#"><img src="images/bench.png" alt="скамья регулируемая"></a>
+                            </div>
+                            <div class="pr-price">
+                                <p>Цена <span>21 900 р.</span></p>
+                            </div>
+                            <div class="pr-cr-price">
+                                <p>С кредионом от</p>
+                                <p class="cr-price">4 380 р.</p>
+                            </div>
+                    </li>
+                    <li class="product">
+                        <h3 class="pr-name"><a href="#">Душевой уголок</a></h3>
+                        <div class="pr-image">
+                            <a href="#"><img src="images/shower-corner.png" alt="душевой уголок"></a>
+                        </div>
+                        <div class="pr-price">
+                            <p>Цена <span>15 500 р.</span></p>
+                        </div>
+                        <div class="pr-cr-price">
+                            <p>С кредионом от</p>
+                            <p class="cr-price">3 100 р.</p>
+                        </div>
+                    </li>
+                    <li class="product">
+                        <h3 class="pr-name"><a href="#">Электрокамин Dimplex</a></h3>
+                        <div class="pr-image">
+                            <a href="#"><img src="images/dimplex.png" alt="Электрокамин Dimplex"></a>
+                        </div>
+                        <div class="pr-price">
+                            <p>Цена <span>21 720 р.</span></p>
+                        </div>
+                        <div class="pr-cr-price">
+                            <p>С кредионом от</p>
+                            <p class="cr-price">4 344 р.</p>
+                        </div>
+                    </li>
+                    <li class="product">
+                        <h3 class="pr-name"><a href="#">Сауна Appollo</a></h3>
+                        <div class="pr-image">
+                            <a href="#"><img src="images/appollo.png" alt="Сауна Appollo"></a>
+                        </div>
+                        <div class="pr-price">
+                            <p>Цена <span>98 472 р.</span></p>
+                        </div>
+                        <div class="pr-cr-price">
+                            <p>С кредионом от</p>
+                            <p class="cr-price">19 694 р.</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="reg-and-search grid">
+                    <div class="registr">
+                        <h3>Хотите продавать больше?</h3>
+                        <p>Значительно больше!</p>
+                        <p>Проверьте сами, как это просто.</p>
+                        <button>Зарегистрироваться</button>
+                    </div>
+                    <div class="search">
+                        <h3>Отслеживайте свою заявку</h3>
+                        <label for="search">Следите за статусом в реальном времени</label>
+                        <form action="helloworld.php" method="post">
+                            <input type="search" id="search" placeholder="номер заявки">
+                            <input type="submit" id="submit" value="Найти">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="content-second">
+                <div class="services">
+                    <div class="grid">
+                        <div class="service">
+                            <img src="images/coins.jpg" alt="">
+                            <h4>Увеличение выручки на 40%</h4>
+                            <p>По данным исследований, магизины, подключившие модуль интернет-кредитования, увеличивают выручку до 40%</p>
+                        </div>
+                        <div class="service">
+                            <img src="images/free.jpg" alt="">
+                            <h4>Без дополнительных издержек</h4>
+                            <p>Покупатель и интернет-магазин ничего не платят за пользование услугой - мы получаем комиссию от банков.</p>
+                        </div>
+                        <div class="service">
+                            <img src="images/0r.jpg" alt="">
+                            <h4>Бесплатная установка</h4>
+                            <p>Наши специалисты предоставят вам все необходимые файлы для установки в вашем интернет магазине бесплатно.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="partners">
+                    <div class="grid">
+                        <h3>Наши партнеры</h3>
+                        <div class="partner">
+                            <a href="#"><img src="images/1.png" alt=""></a>
+                            <p>Лицензия Банка России </p>
+                            <p>№ 3279 от 20 октября 2006</p>
+                        </div>
+                        <div class="partner">
+                            <a href="#"><img src="images/2.png" alt=""></a>
+                            <p>Лицензия Банка России </p>
+                            <p>№ 3354 от 26 марта 2012</p>
+                        </div>
+                        <div class="partner">
+                            <a href="#"><img src="images/3.png" alt=""></a>
+                            <p>Лицензия Банка России </p>
+                            <p>№ 1978 от 20 января 2000</p>
+                        </div>
+                        <div class="partner">
+                            <a href="#"><img src="images/4.jpg" alt=""></a>
+                            <p>Лицензия Банка России </p>
+                            <p>№ 316 от 13 октября 2011</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="nav grid">
+            <div class="sales">
+                <h3>Продажи с Кредионом</h3>
+                <ul>
+                    <li><a href="#">Наши услуги</a></li>
+                </ul>
+            </div>
+            <div class="buys">
+                <h3>Покупки с Кредионом</h3>
+                <ul>
+                    <li><a href="#">Наши услуги</a></li>
+                </ul>
+            </div>
+            <div class="help">
+                <h3>Поддержка</h3>
+                <ul>
+                    <li><a href="#">Покупателям</a></li>
+                    <li><a href="#">Магазинам</a></li>
+                    <li><a href="#">Для разработчиков</a></li>
+                    <li><a href="#">Пожаловаться</a></li>
+                    <li><a href="#">Сообщить об ошибке</a></li>
+                </ul>
+            </div>
+            <div class="press">
+                <h3>Пресса</h3>
+                <ul>
+                    <li><a href="#">Пресс-релизы</a></li>
+                    <li><a href="#">Иные материалы</a></li>
+                </ul>
+            </div>
+            <div class="about-us">
+                <h3>О нас</h3>
+                <ul>
+                    <li><a href="#">История</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social grid">
+            <div class="adonweb">
+                <a href="#">
+                    <img src="images/adonweb.jpg" alt="adonweb">
+                </a>
+                <p>Компания холдинга «Эдонвэб» - создателя проекта ActionPay</p>
+            </div>
+            <ul class="social-buttons">
+                <li><a class="tw" href="#">Twitter</a></li>
+                <li><a class="fb" href="#">Facebook</a></li>
+                <li><a class="le" href="#">Linkedln</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <div class="grid">
+                <p class="copyright">Copyright © 2012 — ООО «Кредион» ИНН: 7706771456, ОГРН: 1127746218490 </p>
+                <p class="design-rights">Designed by <a href="#">“Mealhouse A &amp; M”</a></p>
+                <a href="#"><img class="design-im" src="images/design.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
